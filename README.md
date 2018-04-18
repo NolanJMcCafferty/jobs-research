@@ -1,4 +1,4 @@
-# jobs-research
+# Characterize Jobs Using Deep Learning
 
 Multi step research project with the ultimate goal of using deep learning methods to better understand the characteristics of different occupations and group jobs together based on the tasks and skills they require.
 
