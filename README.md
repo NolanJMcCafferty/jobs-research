@@ -5,11 +5,11 @@ Multi step research project with the ultimate goal of using deep learning method
 # Step 1:
    Scraping job data.
 
-Initial scraping done on Indeed.com using the script indeed.py gathered almost 15000 jobs postings. Includes the title, location, summary, and about the employer for the each job. 
+Initial scraping done on Indeed.com using the script `indeed.py` gathered almost 15000 jobs postings. Includes the title, location, and summary for each job. 
 
 
 # Step 2:
-   Use Doc2Vec to vectorize text data.
+   Use Doc2Vec to vectorize text data. The only preparation done on the text data was to remove punctuation and make everything lowercase, done with `prepare.py`. 
 
 
 # Step 3: 
