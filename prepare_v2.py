@@ -8,7 +8,7 @@ docs = []
 lines = ''
 i = 0
 
-#analyzedDocument = namedtuple('AnalyzedDocument', 'words tags')
+analyzedDocument = namedtuple('AnalyzedDocument', 'words tags')
 
 with open('alljobs.txt', 'r') as rf:
 		for line in rf:
@@ -16,9 +16,9 @@ with open('alljobs.txt', 'r') as rf:
 			newline = newline.lower()
 			if newline == 'zzz\n':
 				i+=1
-				#tags = [i]
+				tags = [i]
 				words = lines.split()
-				docs.append(words)
+	            		docs.append(analyzedDocument(words, tags))
 				lines = ''
 			else:
 				lines = lines+' '+newline 
@@ -36,6 +36,10 @@ print(theModel.docvecs[1])
 docvec1 = theModel.docvecs[1]
 
 docsim1 = theModel.docvecs.most_similar(1)
+
+
+
+
 
 
 
