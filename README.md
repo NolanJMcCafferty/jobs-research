@@ -11,12 +11,10 @@ Initial scraping done on Indeed.com using the script `indeed.py` gathered almost
 ## Step 2:
    ### Use Doc2Vec to vectorize text data. 
    
-   The preparation done on the text data was to remove punctuation and make everything lowercase, done with `prepare.py`. Also, duplicate job postings were removed. 
+The preparation done on the text data was to remove punctuation and make everything lowercase, done with `prepare.py`. Also, duplicate job postings were removed. 
 
 
 ## Step 3: 
-   ### Cluster text data.
-
-
-## Step 4: 
-   ### Use deep learning techniques to group occupations. 
+   ### Create LDA model for Topic Modeling 
+  
+LDA model was chosen because the topic vectors would be more interpretable and sparse than Doc2Vec document vectors. 
