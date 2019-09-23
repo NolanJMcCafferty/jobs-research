@@ -5,7 +5,7 @@ Multi step research project with the ultimate goal of using deep learning method
 ## Step 1:
    ### Scraping job data.
 
-Initial scraping done on Indeed.com using the script `indeed.py` gathered almost 30000 jobs postings. Includes the title, location, and summary for each job. The file `indeed_jobs.txt` contains a small subset of the postings gathered. Each job posting has a title, location, and sumamry in the text file. 
+Initial scraping done on Indeed.com using the script `indeed.py` gathered almost 30000 jobs postings. Includes the title, location, and summary for each job. The file `indeed_jobs.txt` contains a small subset of the postings gathered. Each job posting has a title, location, and sumamry in the text file. These files are in the `scrape_and_prep` folder.
 
 
 ## Step 2:
