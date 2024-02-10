@@ -1,6 +1,6 @@
 # Characterize Jobs Using Deep Learning
 
-Multi step research project with the ultimate goal of using deep learning methods to better understand the characteristics of different occupations and group jobs together based on the tasks and skills they require.
+This is part of a multi step research project with the ultimate goal of using deep learning methods to better understand the characteristics of different occupations and group jobs together based on the tasks and skills they require. This code was written in the summer of 2018 for an economics professor at Pomona College.
 
 ## Step 1:
    ### Scraping job data.
